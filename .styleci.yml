@@ -1,0 +1,43 @@
+js:
+  tab-width: 4
+  use-tabs: false
+  print-width: 120
+  double-quotes: false
+  trailing-commas: es5
+  semicolons: true
+  arrow-parens: always
+  bracket-same-line: false
+  bracket-spacing: true
+  finder:
+    exclude:
+      - "modules"
+      - "node_modules"
+      - "nova"
+      - "nova-components"
+      - "storage"
+      - "spark"
+      - "vendor"
+    name:
+      - "*.js"
+      - "*.jsx"
+    not-name:
+      - "*.min.js"
+
+css:
+  tab-width: 4
+  use-tabs: false
+  print-width: 120
+  double-quotes: false
+  finder:
+    exclude:
+      - "modules"
+      - "node_modules"
+      - "nova"
+      - "nova-components"
+      - "storage"
+      - "spark"
+      - "vendor"
+    name:
+      - "*.css"
+      - "*.scss"
+      - "*.less"
